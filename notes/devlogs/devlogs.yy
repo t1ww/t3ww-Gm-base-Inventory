@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"devlogs",
+  "name":"devlogs",
+  "parent":{
+    "name":"outdated",
+    "path":"folders/Notes/outdated.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

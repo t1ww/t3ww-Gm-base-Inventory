@@ -34,7 +34,7 @@ active = false;
 add_item = function (_item, _amount = 1) {
 	var _remainding_amount = _amount;
 	var _array_length = array_size;
-	// find matching slot
+	// find matching slot	
 	for (var _i = 0; _i < _array_length; _i++) {
 		var _index = ptr(array[_i]); // array index pointer
 		// check matching id and stack not full

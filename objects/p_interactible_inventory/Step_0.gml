@@ -1,9 +1,7 @@
 /// @description p_interactible_inventory Step event
 // > code here
 // Chest interaction
-// mouse checking
-
-// Key press to toggle open/close chest
+// mouse checking: Key press to toggle open/close chest
 if (keyboard_check_pressed(key_interact)) {
 	if (highlight) {
 		if (cont_inventory.sub_inventroy == null) {
@@ -26,7 +24,7 @@ if (keyboard_check_pressed(key_interact)) {
 			cont_inventory.sub_inventroy = null;
 		}
 	} else
-	if (!obj_chest.highlight and this_inventory.active) {
+		if (!obj_chest.highlight and this_inventory.active) {
 		// Closing chest
 		show_debug_message("Chest close");
 		cont_inventory.main_inventory.active = false;

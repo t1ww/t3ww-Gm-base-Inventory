@@ -28,7 +28,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2023.11.1.129",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"t3ww-Gm-base-Inventory",
   "resources":[
@@ -44,7 +44,7 @@
     {"id":{"name":"obj_costed_inventory","path":"objects/obj_costed_inventory/obj_costed_inventory.yy",},},
     {"id":{"name":"obj_inventory_base","path":"objects/obj_inventory_base/obj_inventory_base.yy",},},
     {"id":{"name":"obj_inventory_mouse","path":"objects/obj_inventory_mouse/obj_inventory_mouse.yy",},},
-    {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
+    {"id":{"name":"obj_main_inventory","path":"objects/obj_main_inventory/obj_main_inventory.yy",},},
     {"id":{"name":"obj_market","path":"objects/obj_market/obj_market.yy",},},
     {"id":{"name":"p_interactible_inventory","path":"objects/p_interactible_inventory/p_interactible_inventory.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

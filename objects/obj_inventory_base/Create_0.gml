@@ -34,7 +34,7 @@ active = false;
 add_item = function (_item, _amount = 1) {
 	var _remainding_amount = _amount;
 	var _array_length = array_size;
-	#region // find matching slot {
+	// find matching slot
 	for (var _i = 0; _i < _array_length; _i++) {
 		var _index = ptr(array[_i]); // array index pointer
 		// check matching id and stack not full
@@ -50,30 +50,28 @@ add_item = function (_item, _amount = 1) {
 				_remainding_amount -= _remainding_space;
 			}
 		}
-	} // end for loop
-	#endregion
-}
-#region // find empty slot {
-for (var _i = 0; _i < _array_length; _i++) {
-	var _index = ptr(array[_i]); // array index pointer
-	// check for empty space
-	if (_index.item.id == ITEM.nothing.id) {
-		if (_item.stack_size > _remainding_amount) {
-			_index.item = _item;
-			_index.amount = _remainding_amount;
-			return; // stack fits, finish adding
-		} else {
-			_index.item = _item;
-			_index.amount = _item.stack_size;
-			_remainding_amount -= _item.stack_size; // doesnt fit, just add_item and reduce amount
+	}
+	// find empty slot
+	for (var _i = 0; _i < _array_length; _i++) {
+		var _index = ptr(array[_i]); // array index pointer
+		// check for empty space
+		if (_index.item.id == ITEM.nothing.id) {
+			if (_item.stack_size > _remainding_amount) {
+				_index.item = _item;
+				_index.amount = _remainding_amount;
+				return; // stack fits, finish adding
+			} else {
+				_index.item = _item;
+				_index.amount = _item.stack_size;
+				_remainding_amount -= _item.stack_size; // doesnt fit, just add_item and reduce amount
+			}
 		}
 	}
-} // end for loop
-#endregion }
-// else is inventory is full
-// // drop_the_rest(); WIP !!! !!! !!! !!!
-show_debug_message($"ref: '{self}' inventory is full while trying to add_item");
-	}
+	// else is inventory is full
+	// // drop_the_rest(); WIP !!! !!! !!! !!!
+	show_debug_message($"ref: '{self}' inventory is full while trying to add_item");
+}
+
 remove_item = function (_item, _index, _amount = 1) {
 	var _inventory = array[_index];
 	show_debug_message($"Calling inventory's remove_item(index: {_index}, amount: {_amount})");

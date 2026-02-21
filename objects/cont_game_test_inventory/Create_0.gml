@@ -1,12 +1,5 @@
 /// @description (testing cont_game)
 // code here >
-#region DEBUG OVERLAY
-dbg_view("Value", true, 100);
-dbg_button("add apple", function () {
-	main_inventory.add_item(ITEM.apple, 15360);
-});
-#endregion
-
 // Key input setup
 input = {
 	inventory_toggle: vk_tab
@@ -20,3 +13,10 @@ main_inventory = instance_create_layer(x, y, "Inventory", obj_main_inventory);
 main_inventory.set_array_size(29).set_grid_gap(10);
 
 cont_inventory.main_inventory = main_inventory;
+
+#region DEBUG OVERLAY
+dbg_view("Value", true, 100);
+dbg_button("add apple", function () {
+	main_inventory.add_item(ITEM.apple, 15360);
+});
+#endregion

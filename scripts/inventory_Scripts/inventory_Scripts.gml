@@ -26,6 +26,7 @@ function inventory_save(_filename, _inventory) {
 	file_text_close(_file);
 	show_debug_message($"Saved inventory to {_filename} successfully");
 }
+
 function inventory_load(_filename) {
 	if (file_exists(_filename)) {
 		var _file = file_text_open_read(_filename);

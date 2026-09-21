@@ -10,8 +10,8 @@
   "name":"cont_game_test_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"game",
-    "path":"folders/game.yy",
+    "name":"Game",
+    "path":"folders/Game.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -16,9 +16,12 @@ main_inventory = null;
 sub_inventroy = null;
 // Current nearest chest
 nearest_chest = null;
-#region DEBUG OVERLAY
-dbg_watch(ref_create(self, "focusing_inventory"))
-dbg_watch(ref_create(self, "focusing_inventory_index"))
-#endregion
+
 // Create mouse inventory object
 mouse = instance_create_layer(x, y, "Inventory", obj_inventory_mouse);
+
+// DEBUG OVERLAY
+focusing_inv_name = "None";
+var _ref_inventory_name = ref_create(self, "focusing_inv_name")
+dbg_watch(_ref_inventory_name, "Focusing inventory instance");
+dbg_watch(ref_create(self, "focusing_inventory_index"), "Focusing inventory's index")

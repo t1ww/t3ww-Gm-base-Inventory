@@ -10,7 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"game","folderPath":"folders/game.yy","name":"game","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Game","folderPath":"folders/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"InventorySystem","folderPath":"folders/InventorySystem.yy","name":"InventorySystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inventories","folderPath":"folders/InventorySystem/Inventories.yy","name":"Inventories","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Props","folderPath":"folders/InventorySystem/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},

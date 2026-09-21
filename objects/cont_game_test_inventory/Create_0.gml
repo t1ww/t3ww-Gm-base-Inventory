@@ -1,4 +1,4 @@
-/// @description (testing cont_game)
+/// @description -- (testing cont_game)
 // code here >
 // Key input setup
 input = {
@@ -14,9 +14,8 @@ main_inventory.set_array_size(29).set_grid_gap(10);
 
 cont_inventory.main_inventory = main_inventory;
 
-#region DEBUG OVERLAY
-dbg_view("Value", true, 100);
+// DEBUG OVERLAY
+dbg_section("Buttons");
 dbg_button("add apple", function () {
 	main_inventory.add_item(ITEM.apple, 15360);
 });
-#endregion

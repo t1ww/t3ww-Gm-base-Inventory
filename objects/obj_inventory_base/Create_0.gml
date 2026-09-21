@@ -11,9 +11,9 @@ __.init = function (_self) {
 	// defaults
 	_self[$ "array_size"	] ??= 18;
 	_self[$ "orientation"	] ??= horizontal;
-	_self[$ "grid_size"		] ??= 32; // width and height of each grid
+	_self[$ "grid_size"		] ??= 48; // width and height of each grid
 	_self[$ "grid_gap"		] ??= 4;  // gap between each grid
-	_self[$ "grids_per_row" ] ??= 4;  // amount of grids per row
+	_self[$ "grids_per_row" ] ??= 8;  // amount of grids per row
 
 	// Mouse check area
 	// width and height of entire inventory to be calculated
@@ -28,6 +28,7 @@ __.init = function (_self) {
 }
 
 // PUBLIC
+name = "Hello";
 active = false;
 
 // functions for management

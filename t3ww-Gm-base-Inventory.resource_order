@@ -1,6 +1,6 @@
 {
   "FolderOrderSettings":[
-    {"name":"game","order":1,"path":"folders/game.yy",},
+    {"name":"Game","order":1,"path":"folders/Game.yy",},
     {"name":"InventorySystem","order":3,"path":"folders/InventorySystem.yy",},
     {"name":"Inventories","order":4,"path":"folders/InventorySystem/Inventories.yy",},
     {"name":"Props","order":5,"path":"folders/InventorySystem/Props.yy",},

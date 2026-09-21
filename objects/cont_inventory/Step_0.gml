@@ -100,3 +100,10 @@ and(focusing_inventory.array[focusing_inventory_index].item.id != ITEM.nothing.i
 		}
 	}
 }
+
+// DEBUG OVERLAY
+if (focusing_inventory!= null) {
+	focusing_inv_name = focusing_inventory.name;	
+} else {
+	focusing_inv_name = "None";
+}

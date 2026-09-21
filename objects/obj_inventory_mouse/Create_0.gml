@@ -10,13 +10,6 @@ modifier_key = {
 
 };
 
-#region DEBUG OVERLAY
-var _modifier_key_ref = ref_create(self, "modifier_key");
-dbg_watch(ref_create(_modifier_key_ref, "shift"))
-dbg_watch(ref_create(_modifier_key_ref, "alt"))
-dbg_watch(ref_create(_modifier_key_ref, "ctrl"))
-#endregion
-
 // functions
 add_item = function (_item, _amount = 1) {
     if (inventory.item.id == ITEM.nothing.id) {
@@ -122,3 +115,9 @@ take_item = function () {
         }
     }
 };
+
+// DEBUG OVERLAY
+var _modifier_key_ref = ref_create(self, "modifier_key");
+dbg_watch(ref_create(_modifier_key_ref, "shift"), "Holding Shift");
+dbg_watch(ref_create(_modifier_key_ref, "alt"), "Holding Alt")
+dbg_watch(ref_create(_modifier_key_ref, "ctrl"), "Holding Ctrl")

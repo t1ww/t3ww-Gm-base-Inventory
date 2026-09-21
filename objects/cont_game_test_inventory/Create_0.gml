@@ -9,7 +9,7 @@ input = {
 instance_create_layer(x, y, layer, cont_inventory);
 
 // Create inventory + ui
-main_inventory = instance_create_layer(x, y, "Inventory", obj_main_inventory);
+main_inventory = instance_create_layer(x, y, "Inventory", obj_inventory_main);
 main_inventory.set_array_size(29).set_grid_gap(10);
 
 cont_inventory.main_inventory = main_inventory;

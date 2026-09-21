@@ -3,6 +3,7 @@ highlight = false; // Highlight when mouse on top
 // constructor
 grids_per_row = 4;
 this_inventory = instance_create_layer(550, 288, "inventory", obj_inventory_main, {
+	name: name,
 	grids_per_row: 4,
 });
 // init variable

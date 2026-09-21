@@ -8,27 +8,26 @@
 __ = {};
 // VARIABLES INITIALIZATION
 __.init = function (_self) {
-	// defaults
+	// // Configuration parameters
 	_self[$ "array_size"	] ??= 18;
 	_self[$ "orientation"	] ??= horizontal;
-	_self[$ "grid_size"		] ??= 48; // width and height of each grid
+	_self[$ "grid_size"		] ??= 48; // width and height of each grid (sprite stretched)
 	_self[$ "grid_gap"		] ??= 4;  // gap between each grid
 	_self[$ "grids_per_row" ] ??= 8;  // amount of grids per row
 
-	// Mouse check area
+	// Runtime state
 	// width and height of entire inventory to be calculated
-	_self[$ "width" ] ??= 0;
-	_self[$ "height"] ??= 0;
+	width = 0;
+	height = 0;
 	update_width_and_height();
 
-	// Forced defaults
+	// Defaults
 	array = array_create(real(array_size));
 	reset_array();
 	// [{pos:{x,y}, item, amount, favourite}, ...] //
 }
 
 // PUBLIC
-name = "Hello";
 active = false;
 
 // functions for management

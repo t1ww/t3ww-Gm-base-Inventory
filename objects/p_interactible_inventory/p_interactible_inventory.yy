@@ -29,6 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"inventory_object_type","filters":[],"listItems":[],"multiselect":false,"name":"inventory_object_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_inventory_main","path":"objects/obj_inventory_main/obj_inventory_main.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_inventory_main","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Chest default name","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

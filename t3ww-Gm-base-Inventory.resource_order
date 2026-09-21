@@ -2,9 +2,9 @@
   "FolderOrderSettings":[
     {"name":"game","order":1,"path":"folders/game.yy",},
     {"name":"InventorySystem","order":3,"path":"folders/InventorySystem.yy",},
-    {"name":"inventories","order":4,"path":"folders/InventorySystem/inventories.yy",},
-    {"name":"placable_instances_of_inventories","order":5,"path":"folders/InventorySystem/placable_instances_of_inventories.yy",},
-    {"name":"shader","order":7,"path":"folders/InventorySystem/shader.yy",},
+    {"name":"Inventories","order":4,"path":"folders/InventorySystem/Inventories.yy",},
+    {"name":"Props","order":5,"path":"folders/InventorySystem/Props.yy",},
+    {"name":"Shaders","order":7,"path":"folders/InventorySystem/Shaders.yy",},
     {"name":"Sprites","order":6,"path":"folders/InventorySystem/Sprites.yy",},
     {"name":"itemSprites","order":5,"path":"folders/InventorySystem/Sprites/itemSprites.yy",},
     {"name":"placable_instances_of_inventories","order":4,"path":"folders/InventorySystem/Sprites/placable_instances_of_inventories.yy",},

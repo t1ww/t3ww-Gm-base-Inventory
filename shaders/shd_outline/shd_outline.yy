@@ -3,8 +3,8 @@
   "%Name":"shd_outline",
   "name":"shd_outline",
   "parent":{
-    "name":"shader",
-    "path":"folders/InventorySystem/shader.yy",
+    "name":"Shaders",
+    "path":"folders/InventorySystem/Shaders.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

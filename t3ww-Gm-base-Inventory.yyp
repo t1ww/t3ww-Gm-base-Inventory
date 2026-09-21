@@ -12,9 +12,9 @@
   "Folders":[
     {"$GMFolder":"","%Name":"game","folderPath":"folders/game.yy","name":"game","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"InventorySystem","folderPath":"folders/InventorySystem.yy","name":"InventorySystem","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"inventories","folderPath":"folders/InventorySystem/inventories.yy","name":"inventories","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"placable_instances_of_inventories","folderPath":"folders/InventorySystem/placable_instances_of_inventories.yy","name":"placable_instances_of_inventories","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"shader","folderPath":"folders/InventorySystem/shader.yy","name":"shader","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Inventories","folderPath":"folders/InventorySystem/Inventories.yy","name":"Inventories","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Props","folderPath":"folders/InventorySystem/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/InventorySystem/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/InventorySystem/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"icon","folderPath":"folders/InventorySystem/Sprites/icon.yy","name":"icon","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"itemSprites","folderPath":"folders/InventorySystem/Sprites/itemSprites.yy","name":"itemSprites","resourceType":"GMFolder","resourceVersion":"2.0",},

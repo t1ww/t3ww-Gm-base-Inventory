@@ -10,8 +10,8 @@
   "name":"cont_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"inventories",
-    "path":"folders/InventorySystem/inventories.yy",
+    "name":"Inventories",
+    "path":"folders/InventorySystem/Inventories.yy",
   },
   "parentObjectId":null,
   "persistent":true,

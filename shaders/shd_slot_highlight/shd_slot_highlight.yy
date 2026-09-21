@@ -3,8 +3,8 @@
   "%Name":"shd_slot_highlight",
   "name":"shd_slot_highlight",
   "parent":{
-    "name":"shader",
-    "path":"folders/InventorySystem/shader.yy",
+    "name":"Shaders",
+    "path":"folders/InventorySystem/Shaders.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

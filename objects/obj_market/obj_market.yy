@@ -6,8 +6,8 @@
   "name":"obj_market",
   "overriddenProperties":[],
   "parent":{
-    "name":"placable_instances_of_inventories",
-    "path":"folders/InventorySystem/placable_instances_of_inventories.yy",
+    "name":"Props",
+    "path":"folders/InventorySystem/Props.yy",
   },
   "parentObjectId":{
     "name":"p_interactible_inventory",

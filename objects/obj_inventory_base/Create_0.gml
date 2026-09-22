@@ -1,34 +1,30 @@
 /// @description create -- obj_inventory_base
+
 // !!! INTERACTIONS NOT INCLUDED !!!
 // ACTIONS ARE HANDLED IN obj_inventory
 // or any other inherited inventories
 
-// code here >
+// Code here >
 // PRIVATE
 __ = {};
-// VARIABLES INITIALIZATION
-__.init = function (_self) {
-	// // Configuration parameters
-	_self[$ "array_size"	] ??= 18;
-	_self[$ "orientation"	] ??= horizontal;
-	_self[$ "grid_size"		] ??= 48; // width and height of each grid (sprite stretched)
-	_self[$ "grid_gap"		] ??= 4;  // gap between each grid
-	_self[$ "grids_per_row" ] ??= 8;  // amount of grids per row
-
-	// Runtime state
-	// width and height of entire inventory to be calculated
-	width = 0;
-	height = 0;
-	update_width_and_height();
-
-	// Defaults
-	array = array_create(real(array_size));
-	reset_array();
-	// [{pos:{x,y}, item, amount, favourite}, ...] //
+with (__) {
+// Nothing here
 }
 
 // PUBLIC
+// // Configuration parameters
+self[$ "array_size"		] ??= 18;
+self[$ "orientation"	] ??= horizontal;
+self[$ "grid_size"		] ??= 48; // width and height of each grid (sprite stretched)
+self[$ "grid_gap"		] ??= 4;  // gap between each grid
+self[$ "grids_per_row"	] ??= 8;  // amount of grids per row
+
+// States
 active = false;
+// width and height of entire inventory to be calculated
+width = 0;
+height = 0;
+array = array_create(array_size); // [{pos:{x,y}, item, amount, favourite}, ...] //
 
 // functions for management
 add_item = function (_item, _amount = 1) {
@@ -154,5 +150,6 @@ set_orientation = function (_orientation) {
 	return self;
 }
 
-// end create
-__.init(self);
+// Reset callings
+update_width_and_height();
+reset_array();

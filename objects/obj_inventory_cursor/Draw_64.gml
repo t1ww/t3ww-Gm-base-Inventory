@@ -1,4 +1,4 @@
-/// @description > draw gui -- obj_inventory_mouse
+/// @description > obj_inventory_cursor draw_gui event
 // > code here
 // Draw item sprite
 if (inventory.item.id != ITEM.nothing.id) {

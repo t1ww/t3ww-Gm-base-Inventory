@@ -18,7 +18,7 @@ sub_inventroy = null;
 nearest_chest = null;
 
 // Create mouse inventory object
-mouse = instance_create_layer(x, y, "Inventory", obj_inventory_mouse);
+mouse = instance_create_layer(x, y, "Inventory", obj_inventory_cursor);
 
 // DEBUG OVERLAY
 focusing_inv_name = "None";

@@ -1,4 +1,5 @@
-/// @description create -- obj_inventory_mouse
+/// @description > obj_inventory_cursor create event
+// > code here
 // Initialization
 grid_size = 32;
 inventory = { item: ITEM.nothing, amount: -1, favourite: false };

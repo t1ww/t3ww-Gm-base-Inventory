@@ -8,7 +8,6 @@ modifier_key = {
     shift: false,
     alt: false,
     ctrl: false,
-
 };
 
 // functions

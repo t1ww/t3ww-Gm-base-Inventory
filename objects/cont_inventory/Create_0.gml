@@ -5,6 +5,7 @@ if (instance_number(cont_inventory) > 1) {
 	instance_destroy();
 	show_error("Duplicated singleton - cont_inventory", true);
 }
+
 // Variable to use across the inventories
 // Hovered inventory
 focusing_inventory = null;

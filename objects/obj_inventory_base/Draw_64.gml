@@ -36,7 +36,7 @@ for (var i = 0; i < array_size; i++) {
 		(cont_inventory.focusing_inventory != null
 			&& cont_inventory.focusing_inventory.id == id
 			&& cont_inventory.focusing_inventory_index == i
-		) ? spr_FavouriteOverlay : spr_InvSlot,
+		) ? spr_InvSlotPointer : spr_InvSlot,
 		-1,// subimg
 		_start.x + (grid_size + grid_gap) * _x_index,
 		_start.y + (grid_size + grid_gap) * _y_index,

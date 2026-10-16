@@ -1,3 +1,6 @@
+// User-Generated Script.gml - inventory macros and configs
+// And functions
+// code here >
 // macros / constants
 // const
 #macro horizontal 0

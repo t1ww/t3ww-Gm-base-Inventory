@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_itemTagLookup",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_itemTagLookup",
+  "parent":{
+    "name":"Items",
+    "path":"folders/InventorySystem/Items.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

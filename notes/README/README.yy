@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"why is there new version ongoing",
-  "name":"why is there new version ongoing",
+  "%Name":"README",
+  "name":"README",
   "parent":{
     "name":"Notes",
     "path":"folders/Notes.yy",

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_itemsSetup",
+  "%Name":"scr_import",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_itemsSetup",
+  "name":"scr_import",
   "parent":{
-    "name":"Items",
-    "path":"folders/InventorySystem/Items.yy",
+    "name":"Game",
+    "path":"folders/Game.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

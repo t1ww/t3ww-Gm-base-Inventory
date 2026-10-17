@@ -5,6 +5,9 @@ input = {
 	inventory_toggle: vk_tab
 }
 
+// Create item setup controller
+instance_create_layer(0,0, layer, cont_itemsSetup);
+
 // Create the inventory controller
 instance_create_layer(x, y, layer, cont_inventory);
 

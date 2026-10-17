@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprInventoryicon",
-    "path":"sprites/sprInventoryicon/sprInventoryicon.yy",
+    "name":"icon_inventory",
+    "path":"sprites/icon_inventory/icon_inventory.yy",
   },
   "spriteMaskId":null,
   "visible":true,

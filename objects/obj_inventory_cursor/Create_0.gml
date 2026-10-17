@@ -55,7 +55,7 @@ clear_item = function () {
 use_item = function () {
     if (inventory.item != ITEM.nothing) {
         show_debug_message("Calling mouse's use_item()");
-        inventory.item.use();
+        inventory.item.on_use();
         remove_item();
     } else {
         show_debug_message("Calling mouse's use_item() but it's empty");

@@ -2,8 +2,8 @@
   "FolderOrderSettings":[
     {"name":"Game","order":1,"path":"folders/Game.yy",},
     {"name":"InventorySystem","order":3,"path":"folders/InventorySystem.yy",},
-    {"name":"Items","order":10,"path":"folders/InventorySystem/Items.yy",},
     {"name":"Inventories","order":4,"path":"folders/InventorySystem/Inventories.yy",},
+    {"name":"Items","order":10,"path":"folders/InventorySystem/Items.yy",},
     {"name":"Props","order":5,"path":"folders/InventorySystem/Props.yy",},
     {"name":"Shaders","order":7,"path":"folders/InventorySystem/Shaders.yy",},
     {"name":"Sprites","order":6,"path":"folders/InventorySystem/Sprites.yy",},

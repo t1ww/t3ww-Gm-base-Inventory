@@ -1,5 +1,5 @@
 // User-Generated Script.gml - Items setup
-// code here >
+// > code here
 // Setting types for item
 enum ItemType {
 	// As null

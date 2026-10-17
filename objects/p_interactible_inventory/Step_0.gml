@@ -1,4 +1,4 @@
-/// @description p_interactible_inventory Step event
+/// @description p_interactible_inventory step event
 // > code here
 // Chest interaction
 // mouse checking: Key press to toggle open/close chest

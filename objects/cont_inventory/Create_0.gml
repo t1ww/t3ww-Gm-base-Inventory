@@ -1,5 +1,5 @@
-/// @description create -- cont_inventory
-// code here >
+/// @description > cont_inventory create event
+// > code here
 // Singleton
 if (instance_number(cont_inventory) > 1) {
 	instance_destroy();

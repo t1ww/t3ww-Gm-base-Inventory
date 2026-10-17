@@ -1,4 +1,5 @@
-/// @description p_interactable_inventory Create event
+/// @description p_interactable_inventory create event
+// > code here
 highlight = false; // Highlight when mouse on top
 // constructor
 grids_per_row = 4;

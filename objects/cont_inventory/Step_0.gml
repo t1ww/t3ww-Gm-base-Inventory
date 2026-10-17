@@ -1,5 +1,5 @@
-/// @description step -- cont_inventory
-// code here >
+/// @description > cont_inventory step event
+// > code here
 /// CHECKING FOR NEAREST CHEST
 if (instance_exists(p_interactible_inventory)) {
 	var _nearest_chest = instance_nearest(mouse_x, mouse_y, p_interactible_inventory);

@@ -1,4 +1,5 @@
-/// @description > create -- obj_main_inventory
+/// @description > obj_main_inventory create event
+// > code here
 // Inherit the parent event
 event_inherited();
 // > code here

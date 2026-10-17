@@ -1,5 +1,5 @@
 // User-Generated Script.gml - description
-// code here >
+// > code here
 // Scripts / item_has_tag
 function item_has_tag(_item, _tag) {
     if (!variable_struct_exists(_item, "tags")) {

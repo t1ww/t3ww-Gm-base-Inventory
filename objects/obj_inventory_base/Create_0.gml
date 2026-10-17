@@ -1,17 +1,9 @@
-/// @description create -- obj_inventory_base
-
+/// @description > obj_inventory_base create event
 // !!! INTERACTIONS NOT INCLUDED !!!
 // ACTIONS ARE HANDLED IN obj_inventory
 // or any other inherited inventories
 
-// Code here >
-// PRIVATE
-__ = {};
-with (__) {
-// Nothing here
-}
-
-// PUBLIC
+// > code here
 // // Configuration parameters
 self[$ "array_size"		] ??= 18;
 self[$ "orientation"	] ??= horizontal;

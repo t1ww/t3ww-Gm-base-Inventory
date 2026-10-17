@@ -1,5 +1,9 @@
-/// @description Drawing outlines
+/// @description p_interactible_inventory draw event
+// > code here
+// Set font
 draw_set_font(fnt_inv_default);
+
+// Draw the outline when highlight
 if (highlight) {
 	shader_set(shd_outline);
 	var tex = sprite_get_texture(sprite_index, image_index);
@@ -9,5 +13,9 @@ if (highlight) {
 	shader_set_uniform_f(handler_1, 1.5);//line thickness
 	shader_set_uniform_f(handler_2, 1., 1., 1., 1.);//b
 }
+
+// Draw self
 draw_self();
+
+// Shader end
 shader_reset();
